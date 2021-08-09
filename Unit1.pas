@@ -14,6 +14,7 @@ type
     EdgeBrowser1: TEdgeBrowser;
     Button1: TButton;
     procedure Button1Click(Sender: TObject);
+    procedure FormCreate(Sender: TObject);
   private
     { Private declarations }
   public
@@ -30,6 +31,12 @@ implementation
 procedure TForm1.Button1Click(Sender: TObject);
 begin
   EdgeBrowser1.Navigate('https://orionlaw.com');
+end;
+
+procedure TForm1.FormCreate(Sender: TObject);
+begin
+  self.top := 0;
+  self.Left := 0;
 end;
 
 end.
