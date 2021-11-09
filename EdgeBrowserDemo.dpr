@@ -1,8 +1,8 @@
-program Project1;
+program EdgeBrowserDemo;
 
 uses
   Vcl.Forms,
-  Unit1 in 'Unit1.pas' {Form1},
+  frmUIMain in 'frmUIMain.pas' {UIMain},
   untVirtualUIInit in 'untVirtualUIInit.pas';
 
 {$R *.res}
@@ -10,6 +10,6 @@ uses
 begin
   Application.Initialize;
   Application.MainFormOnTaskbar := True;
-  Application.CreateForm(TForm1, Form1);
+  Application.CreateForm(TUIMain, UIMain);
   Application.Run;
 end.

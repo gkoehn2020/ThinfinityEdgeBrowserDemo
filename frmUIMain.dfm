@@ -1,7 +1,7 @@
-object Form1: TForm1
+object UIMain: TUIMain
   Left = 0
   Top = 0
-  Caption = 'Form1'
+  Caption = 'Embeded Edge Browser Demo'
   ClientHeight = 622
   ClientWidth = 611
   Color = clBtnFace
@@ -22,15 +22,29 @@ object Form1: TForm1
     Align = alTop
     Caption = 'Panel1'
     TabOrder = 0
-    ExplicitWidth = 906
-    object Button1: TButton
+    DesignSize = (
+      611
+      65)
+    object btnNavigate: TButton
       Left = 16
       Top = 21
       Width = 129
       Height = 25
-      Caption = 'Button1'
+      Caption = 'Navigate'
       TabOrder = 0
-      OnClick = Button1Click
+      OnClick = btnNavigateClick
+    end
+    object edtURL: TLabeledEdit
+      Left = 160
+      Top = 23
+      Width = 433
+      Height = 21
+      Anchors = [akLeft, akTop, akRight]
+      EditLabel.Width = 61
+      EditLabel.Height = 13
+      EditLabel.Caption = 'URL to view:'
+      TabOrder = 1
+      Text = 'https://1-q.us'
     end
   end
   object Panel2: TPanel
@@ -41,7 +55,6 @@ object Form1: TForm1
     Align = alClient
     Caption = 'Panel2'
     TabOrder = 1
-    ExplicitWidth = 906
     object EdgeBrowser1: TEdgeBrowser
       Left = 1
       Top = 1
@@ -49,7 +62,6 @@ object Form1: TForm1
       Height = 555
       Align = alClient
       TabOrder = 0
-      ExplicitWidth = 904
     end
   end
 end

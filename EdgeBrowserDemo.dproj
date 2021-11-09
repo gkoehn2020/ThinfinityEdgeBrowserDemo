@@ -8,7 +8,7 @@
         <Platform Condition="'$(Platform)'==''">Win32</Platform>
         <TargetedPlatforms>3</TargetedPlatforms>
         <AppType>Application</AppType>
-        <MainSource>Project1.dpr</MainSource>
+        <MainSource>EdgeBrowserDemo.dpr</MainSource>
     </PropertyGroup>
     <PropertyGroup Condition="'$(Config)'=='Base' or '$(Base)'!=''">
         <Base>true</Base>
@@ -69,7 +69,7 @@
         <Icon_MainIcon>$(BDS)\bin\delphi_PROJECTICON.ico</Icon_MainIcon>
         <UWP_DelphiLogo44>$(BDS)\bin\Artwork\Windows\UWP\delphi_UwpDefault_44.png</UWP_DelphiLogo44>
         <UWP_DelphiLogo150>$(BDS)\bin\Artwork\Windows\UWP\delphi_UwpDefault_150.png</UWP_DelphiLogo150>
-        <SanitizedProjectName>Project1</SanitizedProjectName>
+        <SanitizedProjectName>EdgeBrowserDemo</SanitizedProjectName>
     </PropertyGroup>
     <PropertyGroup Condition="'$(Base_Win32)'!=''">
         <DCC_UsePackage>DBXSqliteDriver;DBXDb2Driver;RemObjects_Synapse_D27;TeeTree2D27Tee9;vclactnband;rRwEasyMAPIVCL270;vclFireDAC;dxSkinDarkSideRS27;FMXTree27;dxSkinDarkRoomRS27;rbRAP2127;tethering;TeeDB927;FireDACADSDriver;cxLibraryRS27;rRwControlsVCL270;FMXTeeImport927;dxRibbonCustomizationFormRS27;dxSkinStardustRS27;FireDACMSSQLDriver;dxSkinOffice2013WhiteRS27;vcltouch;dxSkinOffice2010BlackRS27;vcldb;svn;dxPScxExtCommonRS27;dxSkinLilianRS27;rbRCL2127;dxSkinBlueprintRS27;cxTreeListRS27;dxPScxSchedulerLnkRS27;rbUSERDesign2127;rbIDE2127;dxRichEditDocumentModelRS27;dxPsPrVwAdvRS27;FireDACDBXDriver;dxSkinSharpPlusRS27;dxSkinOffice2007GreenRS27;vclx;dxPSdxFCLnkRS27;ps200r104;dxSkinLondonLiquidSkyRS27;pc200r104;dxSpellCheckerRS27;dxSkinCaramelRS27;dxPDFViewerRS27;rbRTL2127;FMXTeeDB927;RESTBackendComponents;dxSkinValentineRS27;VCLRESTComponents;dxSkinOffice2007PinkRS27;dxWizardControlRS27;cxSchedulerTreeBrowserRS27;dxSkinOffice2013DarkGrayRS27;vclie;bindengine;CloudService;dxBarExtDBItemsRS27;dxSkinSilverRS27;FireDACMySQLDriver;rbDBE2127;dxSkinSevenRS27;RemObjects_Indy_D27;cxExportRS27;DataSnapClient;cxSchedulerWebServiceStorageRS27;bindcompdbx;dxSkinOffice2013LightGrayRS27;IndyIPServer;DBXSybaseASEDriver;dxPScxPCProdRS27;IndySystem;dxHttpIndyRequestRS27;TeeLanguage927;bindcompvclwinx;TeeImage927;dsnapcon;dxFlowChartRS27;dxSkinDevExpressDarkStyleRS27;rbBDE2127;dxSkinSummer2008RS27;FireDACMSAccDriver;fmxFireDAC;FireDACInfxDriver;vclimg;FMXTeePro927;dxmdsRS27;dxPSPrVwRibbonRS27;dxSkinOffice2007BlueRS27;dxCoreRS27;rbDAD2127;emshosting;TeeGL927;dxSkinBlackRS27;rbADO2127;dxSkinPumpkinRS27;dxSkinOffice2010SilverRS27;DBXOdbcDriver;FireDACTDataDriver;cxSchedulerRibbonStyleEventEditorRS27;soaprtl;DbxCommonDriver;dxRichEditCoreRS27;TeeMaker127;dxSkinTheAsphaltWorldRS27;dxCloudServiceLibraryRS27;xmlrtl;soapmidas;DataSnapNativeClient;fmxobj;dxSkinSharpRS27;rRwWebBrowserVCL270;rtl;emsserverresource;DbxClientDriver;dxdbtrRS27;DBXSybaseASADriver;adxBuildD27;dxdborRS27;CodeSiteExpressPkg;dxSkinSevenClassicRS27;appanalytics;dxSpreadSheetCoreRS27;dxRichEditControlCoreRS27;dxSkinXmas2008BlueRS27;dxGDIPlusRS27;IndyIPClient;dxFireDACServerModeRS27;dxFlowChartAdvancedCustomizeFormRS27;bindcompvcl;dxSkinDevExpressStyleRS27;dxServerModeRS27;dxPSLnksRS27;dxorgcRS27;TeeImport927;VclSmp;rRwControlsFMX270;dxDBXServerModeRS27;FireDACODBCDriver;dRwWebBrowserVCL270;DataSnapIndy10ServerTransport;dclRBE2127;cxGridRS27;DataSnapProviderClient;FireDACMongoDBDriver;rbTCUI2127;dxFireDACEMFRS27;RemObjects_Server_Indy_D27;rRwEasyMAPIFMX270;dxtrmdRS27;rbDB2127;RESTComponents;DataSnapServerMidas;rbDIDE2127;rRwCommon270;DBXInterBaseDriver;hbTapi27;dxSpreadSheetCoreConditionalFormattingDialogsRS27;dxSpreadSheetConditionalFormattingDialogsRS27;dxGaugeControlRS27;dxSpreadSheetReportDesignerRS27;dxSkinMoneyTwinsRS27;dxSkinMetropolisDarkRS27;dxSpreadSheetRS27;bindcompvclsmp;emsclientfiredac;DataSnapFireDAC;svnui;cxPivotGridOLAPRS27;dxPSRichEditControlLnkRS27;dxBarDBNavRS27;DBXMSSQLDriver;cxPivotGridRS27;dxADOServerModeRS27;dxSkinSpringTimeRS27;DatasnapConnectorsFreePascal;bindcompfmx;DBXOracleDriver;RemObjects_Server_Synapse_D27;inetdb;rbTC2127;dxFlowChartDesignerRS27;rRwEasyMAPI270;FMXTeeLanguage927;emsedge;fmx;FireDACIBDriver;fmxdae;vcledge;adxolBuildD27;dbexpress;IndyCore;dxRibbonRS27;dxOrgChartAdvancedCustomizeFormRS27;dsnap;emsclient;DataSnapCommon;FireDACCommon;dxSkinBlueRS27;dxTileControlRS27;TeeUI927;dxBarExtItemsRS27;DataSnapConnectors;cxSchedulerRS27;cxGridEMFRS27;dxSkiniMaginaryRS27;dxSkinMcSkinRS27;TeePro927;soapserver;pb200r104;dclRBFireDAC2127;dxSkinHighContrastRS27;dxSkinOffice2010BlueRS27;dxRichEditControlRS27;dxSkinFoggyRS27;dxPScxTLLnkRS27;dxSkinLiquidSkyRS27;FireDACOracleDriver;DBXMySQLDriver;dxFlowChartLayoutsRS27;dxPSCoreRS27;dxADOEMFRS27;DBXFirebirdDriver;FireDACCommonODBC;FireDACCommonDriver;dxPScxPivotGridLnkRS27;inet;cxPivotGridChartRS27;IndyIPCommon;dxPSdxOCLnkRS27;OLSecManD27;rbRIDE2127;vcl;rbCIDE2127;dxSkinOffice2007BlackRS27;FireDACDb2Driver;rbCloudSC2127;dxMapControlRS27;dxPSdxDBOCLnkRS27;dxComnRS27;madExcept_;dxPSdxGaugeControlLnkRS27;dclRBDBE2127;FmxTeeUI927;dxSkinMetropolisRS27;madBasic_;dxEMFRS27;dxPSdxPDFViewerLnkRS27;FireDAC;cxTreeListdxBarPopupMenuRS27;dxPScxVGridLnkRS27;dxSkinCoffeeRS27;dxPSdxSpreadSheetLnkRS27;FireDACSqliteDriver;FireDACPgDriver;dxSkinGlassOceansRS27;FireDACASADriver;Tee927;dxTabbedMDIRS27;dxGanttControlRS27;TeeWorld927;FMXTee927;DataSnapServer;dclRBADO2127;vclwinx;FireDACDSDriver;dxPScxCommonRS27;madDisAsm_;dxSkinOffice2007SilverRS27;CustomIPTransport;vcldsnap;dxSkinsCoreRS27;dxPScxGridLnkRS27;dxSkinVS2010RS27;bindcomp;DBXInformixDriver;cxVerticalGridRS27;cxSchedulerGridRS27;rbFireDAC2127;dxDockingRS27;dxNavBarRS27;dRwWebBrowserFMX270;rbRest2127;dxSkinWhiteprintRS27;dbxcds;adortl;RemObjects_WebBroker_D27;rbUSER2127;dsnapxml;dbrtl;IndyProtocols;inetdbxpress;dxBarRS27;dxPSdxLCLnkRS27;rRwWebBrowserFMX270;dxPSdxMapControlLnkRS27;dxPSdxDBTVLnkRS27;fmxase;$(DCC_UsePackage)</DCC_UsePackage>
@@ -132,8 +132,8 @@ $(PostBuildEvent)]]></PostBuildEvent>
         <DelphiCompile Include="$(MainSource)">
             <MainSource>MainSource</MainSource>
         </DelphiCompile>
-        <DCCReference Include="Unit1.pas">
-            <Form>Form1</Form>
+        <DCCReference Include="frmUIMain.pas">
+            <Form>UIMain</Form>
             <FormType>dfm</FormType>
         </DCCReference>
         <DCCReference Include="untVirtualUIInit.pas"/>
@@ -155,7 +155,7 @@ $(PostBuildEvent)]]></PostBuildEvent>
         <BorlandProject>
             <Delphi.Personality>
                 <Source>
-                    <Source Name="MainSource">Project1.dpr</Source>
+                    <Source Name="MainSource">EdgeBrowserDemo.dpr</Source>
                 </Source>
                 <Excluded_Packages>
                     <Excluded_Packages Name="$(BDSBIN)\dcloffice2k270.bpl">Microsoft Office 2000 Sample Automation Server Wrapper Components</Excluded_Packages>
@@ -163,9 +163,9 @@ $(PostBuildEvent)]]></PostBuildEvent>
                 </Excluded_Packages>
             </Delphi.Personality>
             <Deployment Version="3">
-                <DeployFile LocalName="Win32\Debug\Project1.exe" Configuration="Debug" Class="ProjectOutput">
+                <DeployFile LocalName="Win32\Debug\EdgeBrowserDemo.exe" Configuration="Debug" Class="ProjectOutput">
                     <Platform Name="Win32">
-                        <RemoteName>Project1.exe</RemoteName>
+                        <RemoteName>EdgeBrowserDemo.exe</RemoteName>
                         <Overwrite>true</Overwrite>
                     </Platform>
                 </DeployFile>
