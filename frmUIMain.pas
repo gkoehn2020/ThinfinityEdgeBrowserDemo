@@ -32,6 +32,12 @@ implementation
 uses
   System.IOUtils;
 
+{
+NOTE: There is a pre-build command on this project.
+This command reaches into common_DLL_folder_path and copies the appropiate dll into the exe directory.
+You can view and modify this command by going to Delphi-MainMenu-Project-Building-Build Events.
+}
+
 procedure TUIMain.btnNavigateClick(Sender: TObject);
 begin
   EdgeBrowser1.Navigate(edtURL.Text);
